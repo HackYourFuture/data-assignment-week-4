@@ -22,9 +22,10 @@ def download_inputs(data_dir: Path) -> None:
 
 
 def upload_outputs(output_dir: Path, github_username: str) -> None:
-    """Task 7: Upload Parquet outputs to a personal Azure container and verify the round-trip."""
+    """Task 7 (extra credit): Upload Parquet outputs to Azure and verify the round-trip."""
     container_name = f"week4-{github_username}"
 
+    # EXTRA CREDIT — implement this after Tasks 2–6 are working.
     # TODO: Create a BlobServiceClient using DefaultAzureCredential and ACCOUNT_URL.
     # TODO: Get (or create) the container named container_name.
     # TODO: Upload every .parquet file in output_dir to the container.
