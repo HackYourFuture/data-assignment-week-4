@@ -26,6 +26,6 @@ def write_outputs(reports: dict[str, pd.DataFrame], output_dir: Path) -> None:
     # TODO: Write reports["category_performance"] to category_performance.csv with index=False.
     # TODO: Sort category_performance by total_revenue descending.
     # TODO: Plot a bar chart (x="category", y="total_revenue") and save to category_revenue.png
-    #       using plt.savefig("output/category_revenue.png", bbox_inches="tight").
+    #       using plt.savefig(output_dir / "category_revenue.png", bbox_inches="tight").
     #       Use matplotlib.use("Agg") before importing pyplot for headless environments.
     raise NotImplementedError("Task 6: implement write_outputs")

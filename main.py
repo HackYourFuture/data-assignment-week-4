@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 DATA_DIR = Path("data")
 OUTPUT_DIR = Path("output")
 
-# Replace with your GitHub username before running Task 7.
+# TODO (Task 7): replace with your GitHub username before running the pipeline.
 GITHUB_USERNAME = "<your-github-username>"
 
 

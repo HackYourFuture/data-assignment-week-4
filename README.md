@@ -10,7 +10,7 @@ Read the full assignment on the HYF Data Track: [Assignment: MessyCorp Pandas](h
 | `src/clean.py` | Task 2 (explore) and Task 3 (clean sales) |
 | `src/transform.py` | Task 4 (join customers, add `is_high_value`) |
 | `src/report.py` | Task 5 (build report tables) and Task 6 (write outputs) |
-| `main.py` | Pipeline runner — no edits needed |
+| `main.py` | Pipeline runner — set `GITHUB_USERNAME` before running Task 7 |
 | `AI_ASSIST.md` | Task 8 — fill in before submitting |
 
 ## Setup
